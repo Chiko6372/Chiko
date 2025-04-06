@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chiko Store - Top Up Game</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Header -->
+  <header class="bg-white shadow p-4">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Chiko Store</h1>
+      <nav>
+        <a href="#games" class="mx-2 hover:underline">Top Up</a>
+        <a href="#form" class="mx-2 hover:underline">Form</a>
+        <a href="#contact" class="mx-2 hover:underline">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-16 bg-blue-600 text-white">
+    <h2 class="text-3xl font-bold mb-4">Top Up Game Cepat & Terpercaya</h2>
+    <p class="text-lg">Free Fire, MLBB, PUBG, dan lainnya. Bayar pakai DANA, OVO, ShopeePay, dan Bank.</p>
+  </section>
+
+  <!-- Pilihan Game -->
+  <section id="games" class="py-12 max-w-6xl mx-auto px-4">
+    <h3 class="text-2xl font-semibold mb-6 text-center">Pilih Game</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded shadow">
+        <h4 class="font-bold text-xl mb-2">Mobile Legends</h4>
+        <p class="mb-4">Top up Diamond cepat & murah.</p>
+        <a href="#form" class="bg-blue-600 text-white px-4 py-2 rounded">Top Up</a>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h4 class="font-bold text-xl mb-2">Free Fire</h4>
+        <p class="mb-4">Isi Diamond FF langsung masuk.</p>
+        <a href="#form" class="bg-blue-600 text-white px-4 py-2 rounded">Top Up</a>
+      </div>
+      <div class="bg-white p-6 rounded shadow">
+        <h4 class="font-bold text-xl mb-2">PUBG Mobile</h4>
+        <p class="mb-4">UC PUBG resmi & cepat.</p>
+        <a href="#form" class="bg-blue-600 text-white px-4 py-2 rounded">Top Up</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Form Top Up -->
+  <section id="form" class="bg-white py-12">
+    <div class="max-w-xl mx-auto px-4">
+      <h3 class="text-2xl font-semibold mb-6 text-center">Formulir Top Up</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="ID Pengguna" class="w-full border p-2 rounded" required>
+        <select class="w-full border p-2 rounded" required>
+          <option value="">Pilih Game</option>
+          <option>Mobile Legends</option>
+          <option>Free Fire</option>
+          <option>PUBG Mobile</option>
+        </select>
+        <select class="w-full border p-2 rounded" required>
+          <option value="">Jumlah Top Up</option>
+          <option>86 Diamond - Rp20.000</option>
+          <option>172 Diamond - Rp40.000</option>
+          <option>344 Diamond - Rp80.000</option>
+        </select>
+        <select class="w-full border p-2 rounded" required>
+          <option value="">Metode Pembayaran</option>
+          <option>DANA</option>
+          <option>OVO</option>
+          <option>ShopeePay</option>
+          <option>Transfer Bank</option>
+        </select>
+        <button type="submit" class="bg-blue-600 text-white w-full py-2 rounded">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-4 bg-gray-200 mt-12">
+    <p>&copy; 2025 Chiko Store. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
